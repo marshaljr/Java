@@ -1,0 +1,18 @@
+package work27jan;
+
+public class TestAccount {
+
+	public static void main(String[] args) {
+		MyBalance account;
+		
+		account = new MyBalance();
+		
+		account.accountNumber = "0123456789000008";
+		account.accountHolder = "Marshal";
+		account.balance = 1000000;
+		
+		System.out.println("Account Number : "+account.accountNumber);
+		System.out.println("Account Holder : "+account.accountHolder);
+		System.out.println("Balance : "+account.balance);
+	}
+}

@@ -1,0 +1,11 @@
+package work27jan;
+
+public class BankAccount {
+String accountNumber;
+String AccountHolder;
+int balance;
+
+public void display() {
+	System.out.println(balance);
+}
+}

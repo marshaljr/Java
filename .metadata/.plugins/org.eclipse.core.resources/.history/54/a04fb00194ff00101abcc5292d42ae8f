@@ -1,0 +1,23 @@
+package work30jan;
+
+public class ObjectConstructor {
+
+    String name;
+    int age;
+
+    public ObjectConstructor(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public static void main(String[] args) {
+        ObjectConstructor s1 = new ObjectConstructor("Marshal", 19);
+        ObjectConstructor s2 = new ObjectConstructor("Ram", 20);
+        ObjectConstructor s3 = new ObjectConstructor("Mehara", 21);
+
+        System.out.println(s1.name);
+        System.out.println(s2.name);
+        System.out.println(s3.name);
+    }
+}
+

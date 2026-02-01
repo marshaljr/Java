@@ -1,0 +1,24 @@
+package work26jan;
+
+public class TestCar {
+
+	public static void main(String[] args) {
+        Car car1 = new Car();
+        Car car2 = new Car();
+     //   Car car3 = new Car();
+
+        car1.color = "Red"; // Setting instance variable for car1
+        car1.model = "Sedan";
+
+        car2.color = "Blue"; // Setting instance variable for car2
+        car2.model = "SUV";
+
+        System.out.println(car1.color);
+        System.out.println(car1.model);
+
+        System.out.println(car2.color);
+        System.out.println(car2.model);
+    }
+
+
+}
