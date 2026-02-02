@@ -1,0 +1,10 @@
+package work2feb;
+
+public class StudentWithCapsulation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

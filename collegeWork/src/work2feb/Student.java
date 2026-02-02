@@ -1,0 +1,35 @@
+package work2feb;
+
+public class Student {
+	// private variables (data hiding)
+	private String name;
+	private int age;
+
+	public Student(String name, int age) {
+		this.name = name;
+		if (age > 0) {
+			this.age = age;
+		}
+	}
+
+	// setter method (to set values with control)
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setAge(int age) {
+		if (age > 0) { // validation
+			this.age = age;
+		}
+	}
+
+	// getter methods (to read values)
+	public String getName() {
+		return name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+}

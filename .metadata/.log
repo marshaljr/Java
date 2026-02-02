@@ -218,3 +218,29 @@ java.lang.NullPointerException: Cannot invoke "java.util.Map$Entry.getValue()" b
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:90)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+!SESSION 2026-02-02 10:15:58.410 -----------------------------------------------
+eclipse.buildId=4.38.0.20251204-0849
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_NP
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/marshal/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/marshal/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2026-02-02 10:15:59.592
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-02-02 10:16:02.836
+!MESSAGE Logback config file: /Users/marshal/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.101.20251017-1242.xml
+!SESSION 2026-02-02 23:04:53.464 -----------------------------------------------
+eclipse.buildId=4.38.0.20251204-0849
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_NP
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/marshal/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/marshal/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2026-02-02 23:04:54.633
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-02-02 23:04:58.350
+!MESSAGE Logback config file: /Users/marshal/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.101.20251017-1242.xml
