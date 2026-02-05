@@ -1,0 +1,16 @@
+package work3feb;
+
+public class Test {
+
+	public static void main(String[] args) {
+		CollegeStudent cs = new CollegeStudent();
+		
+		cs.name = "Ram";
+		cs.age = 20;
+		cs.rollNo = 101;
+		cs.age = -5;
+		
+
+	}
+
+}

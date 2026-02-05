@@ -1,0 +1,40 @@
+package work4feb;
+
+class BankAccount {
+	private int accountNumber;
+	private double balance;
+
+	public BankAccount(int accountNumber, double balance) {
+		this.accountNumber = accountNumber;
+		this.balance = balance;
+	}
+
+	public int getAccountNumber() {
+		return accountNumber;
+	}
+
+	public double getBalance() {
+		return balance;
+	}
+
+	// Deposit method
+	public void deposit(double amount) {
+		balance += amount;
+		System.out.println(amount + " deposited successfully.");
+	}
+
+	// Withdraw method
+	public void withdraw(double amount) {
+		if (amount <= balance) {
+			balance -= amount;
+			System.out.println(amount + " withdrawn successfully.");
+		} else {
+			System.out.println("Error: Insufficient balance!");
+		}
+	}
+
+	public void displayBalance() {
+		System.out.println("Current Balance: " + balance);
+	}
+
+}

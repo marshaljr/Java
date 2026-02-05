@@ -1,0 +1,17 @@
+package work3feb;
+
+public class CollegeStudent extends Student {
+	String name;
+	int age;
+	int rollNo;
+
+	void showRollNo() {
+		System.out.println(rollNo);
+	}
+
+	public void display() {
+		
+		
+	}
+
+}

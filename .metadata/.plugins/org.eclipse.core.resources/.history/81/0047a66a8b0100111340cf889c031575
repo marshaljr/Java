@@ -1,0 +1,58 @@
+package work4feb;
+
+public class Student1 {
+	private String name;
+	private int rollNum;
+
+    //Default Constructor
+	public void MyConstructor(String n, int r) {
+
+	}
+
+	// Parameterized Constructor
+	public void MyConstructor2(String n, int r) {
+		this.name = n;
+		this.rollNum = r;
+	}
+
+	public void setName(String n) {
+		this.name = n;
+
+	}
+
+	public String getName() {
+		return name;
+
+	}
+
+	public void setrollNum(int r) {
+		this.rollNum = r;
+
+	}
+
+	public int getrollNum() {
+		return rollNum;
+
+	}
+
+	void display() {
+		System.out.println(name);
+		System.out.println(rollNum);
+	}
+
+	public class Test1 {
+		public static void main(String[] args) {
+
+			Student1 ob = new Student1();
+
+//			ob.setName("Sita");
+//			ob.setrollNum(5);
+
+//			ob.name = "Marshal";
+//			ob.rollNum = 102;
+
+			ob.display();
+		}
+	}
+
+}

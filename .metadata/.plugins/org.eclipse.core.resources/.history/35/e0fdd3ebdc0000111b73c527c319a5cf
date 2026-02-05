@@ -1,0 +1,15 @@
+package work3feb;
+
+class Test {
+    public static void main(String[] args) {
+
+        CollegeStudent cs = new CollegeStudent();
+
+        cs.name = "Ram";     // inherited from Student
+        cs.age = 20;         // inherited from Student
+        cs.rollNo = 101;     // own variable
+
+        cs.display();        // inherited method
+        cs.showRollNo();     // own method
+    }
+}
