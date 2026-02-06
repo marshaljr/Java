@@ -1,0 +1,14 @@
+package work6feb;
+
+public class TestChild {
+
+	public static void main(String[] args) {
+
+		Student s = new CollegeStudent();
+		s.role();
+
+//		CollegeStudent cs = (CollegeStudent) s;
+//		cs.display();
+	}
+
+}

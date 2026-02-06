@@ -1,0 +1,10 @@
+package work6feb;
+
+class Animal {
+	void sound() {
+		System.out.println("Some Animal Sound");
+	}
+	
+	
+
+}

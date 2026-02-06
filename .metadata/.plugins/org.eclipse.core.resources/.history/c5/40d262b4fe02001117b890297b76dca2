@@ -1,0 +1,22 @@
+package work6feb;
+
+class Student {
+ void role() {
+	 System.out.println("I am student");
+ }
+ 
+ 
+}
+class CollegeStudent extends Student {
+	 void role() {
+		 System.out.println("I am college student");
+	 }
+	 
+
+} 
+ 
+ 
+
+
+
+
