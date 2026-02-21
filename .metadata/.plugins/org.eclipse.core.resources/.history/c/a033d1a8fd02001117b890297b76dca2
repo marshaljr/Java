@@ -1,7 +1,0 @@
-package work6feb;
-
-class Student {
-int id = 100;
-}
-
-

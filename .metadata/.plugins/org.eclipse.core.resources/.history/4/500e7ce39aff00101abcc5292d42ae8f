@@ -1,7 +1,0 @@
-package work26jan;
-
-public class Car {
-	  String color; // Instance variable
-	    String model;  // Instance variable
-
-}
